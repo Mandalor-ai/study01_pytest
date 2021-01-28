@@ -14,7 +14,7 @@ def test_ride():#乘法
     assert 63==calu.ride(9,7)
 def test_a():
     assert  1!=2
- def test_div():#除法
+def test_div():#除法
     assert 2==calu.div(3,0)
 def setup_module():
     print('开始执行setup')
