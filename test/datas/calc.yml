@@ -1,0 +1,24 @@
+add:
+  datas:
+    - [1,99,100]
+    - [0,0,0]
+    - [-98.00,-2.00,100.00]
+    - [55.20,-54.08,100.00]
+    - [99,0,100]
+    - [99,-199,100]
+    - [99.00,-1.00,100]
+    - [99,15.00,114]
+  ids: ['int+int','zero+zero','minus+minus','float+float','int+zero','int+minus','float+minus','int+float']
+
+div:
+  datas:
+    - [99,99,1]
+    - [0,0,0]
+    - [-98,-2,49]
+    - [55.0,55.08,100.00]
+    - [99,0,100]
+    - [-99,0,100]
+    - [99.00,-1.00,100]
+    - [-99,0,114]
+    - [99,-1,99]
+  ids: ['int/int','zero/zero','minus/minus','float/float','int/zero','minus/zer0','float/minus','minus/zero','int/minus']
