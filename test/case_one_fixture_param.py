@@ -1,8 +1,9 @@
-
+import allure
 import pytest
-
+@allure.feature('计算器')
 class TestCalc:
-
+  #  @allure.title('加标题_{get_fixture_datas_addint[0]}_{get_fixture_datas_addint[1]}')
+    @allure.story('相加功能')
     def test_add(self,get_instance,get_fixture_datas_addint):
         print('加法')
         c = get_fixture_datas_addint

@@ -1,15 +1,15 @@
-#conftest.py  文件名固定格式 不能改动
+# #conftest.py  文件名固定格式 不能改动
 import datetime
 
 import pytest
 
-#通过conftest.py  定义session级别
-#@pytest.fixture(scope='session')
-# def login():
-#     print('登录')
-#     token =datetime.datetime.now()
-#     yield token
-#     print('登出')
+# #通过conftest.py  定义session级别
+# #@pytest.fixture(scope='session')
+# # def login():
+# #     print('登录')
+# #     token =datetime.datetime.now()
+# #     yield token
+# #     print('登出')
 import yaml
 
 from pythontest.Calculator import Calculator
