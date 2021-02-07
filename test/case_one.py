@@ -4,6 +4,7 @@ import yaml
 
 from pythontest.Calculator import Calculator
 
+
 def get_datas(name,type='int'):
 
     with open('datas/calc.yml') as f:

@@ -11,7 +11,9 @@ import pytest
 # #     yield token
 # #     print('登出')
 import yaml
-
+import sys
+# 配置上路径  要不找不到包
+sys.path.append('..')
 from pythontest.Calculator import Calculator
 
 def get_datas(name,type='int'):
